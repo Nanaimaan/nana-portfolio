@@ -17,6 +17,12 @@ html {
 p {
   color: rgb(85, 85, 85);
 }
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /*TRANSITION*/
 
@@ -33,6 +39,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   height: 17vh;
+  width: 100%;
 }
 .nav-links {
   gap: 2rem;
@@ -144,7 +151,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -244,7 +251,8 @@ section {
 
 #about {
   position: relative;
-  height: 800px;
+
+  width: 80%;
 }
 
 .about-containers {
@@ -253,8 +261,8 @@ section {
   margin-top: 3rem;
 }
 .about-containers p {
-  width: 600px;
   line-height: 2rem;
+  text-align: ce;
 }
 .about-details-container {
   justify-content: center;
@@ -305,7 +313,6 @@ section {
 /* Skills  */
 #skills {
   position: relative;
-  height: 700px;
 }
 .experience-sub-title {
   color: rgb(85, 85, 85);
@@ -336,7 +343,8 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
   border-radius: 2rem;
   border-color: rgb(163, 163, 163);
   padding: 2rem;
@@ -362,7 +370,6 @@ article .icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 .tech-title {
   font-weight: 600;
@@ -397,7 +404,6 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
 }
 
 .contact-info-upper-container {
@@ -430,7 +436,6 @@ article .icon {
   flex-direction: columns;
 }
 footer {
-  height: 20vh;
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
