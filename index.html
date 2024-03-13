@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nana Imaan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a class="hover" href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Nana Imaan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/IMG_3966.jpg" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nana Imaan</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1"
+            onclick="window.open('./assets/Nurzada_Maatkabylova.pdf')"
+          >
+            My Resume
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='#contact'">
+            Contact me
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My linkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/nanaimaan/' "
+          />
+          <img
+            src="./assets/github.png"
+            alt="My GitHub profile"
+            class="icon"
+            onclick="location.href='https://github.com/Nanaimaan' "
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <p class="section-title">About Me</p>
+
+      <div class="section-container">
+        <div class="section__pic-conatiner">
+          <img
+            class="about-pic"
+            src="./assets/profile.JPG"
+            alt="Profile picture"
+          />
+        </div>
+
+        <div class="about-containers">
+          <p>
+            Hi there! 👋 I'm Nana, a passionate front-end developer with a keen
+            interest in crafting exceptional web designs and enhancing user
+            experiences. With a strong foundation in HTML, CSS, JavaScript, and
+            React, I specialize in bringing ideas to life through intuitive and
+            visually appealing interfaces.<br />
+            Driven by a love for creativity and a dedication to continuous
+            improvement, I thrive on staying up-to-date with the latest trends
+            and technologies in web development. My goal is not only to build
+            websites but to create immersive digital experiences that captivate
+            and engage users. <br />
+            One of the aspects I enjoy most about web development is the
+            collaborative nature of the field. I thrive in team environments,
+            where I can brainstorm ideas, share knowledge, and work together
+            with other talented individuals to achieve common goals.
+          </p>
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore More</p>
+      <h1 class="section-title">Skills</h1>
+      <div class="experience-details-conatiner">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MUI</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Redux</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>RESTful API</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next JS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Firebase</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Netlify</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vercel</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="section-title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/hm-project.png"
+                alt="HM Project"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">HM Project</h2>
+            <div class="tech-wrapper">
+              <p class="tech-title">Tech Stack</p>
+              <p class="tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>React</span><span>Redux</span><span>Glitch</span
+                ><span>Vercel</span><span>GitHub</span>
+              </p>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Nanaimaan/HM-project'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://hm-project-blond.vercel.app'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/bookystore.png"
+                alt="Booky Store"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Booky Store</h2>
+            <div class="tech-wrapper">
+              <p class="tech-title">Tech Stack</p>
+              <p class="tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>React</span><span>Redux</span><span>MongoDB</span
+                ><span>Firebase</span><span>GitHub</span>
+              </p>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Nanaimaan/bookystore'"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='http://localhost:3000/?q=&_page=0'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Let's Connect!</p>
+      <h1 class="section-title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="email-icon" />
+          <p>
+            <a href="mailto:nanaimaanxd@gmail.com" target="_blank"
+              >nanaimaanxd@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="linkedIn icon" class="icon" />
+          <p>
+            <a href="https://linkedin.com/in/nanaimaan/" target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a class="hover" href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p class="footer">
+        Copyright &#169; 2024 Nana Imaan. All Rights Reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
