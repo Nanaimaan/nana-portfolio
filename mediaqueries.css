@@ -1,3 +1,9 @@
+@media screen and (max-width: 1500px) {
+  .about-text {
+   
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;

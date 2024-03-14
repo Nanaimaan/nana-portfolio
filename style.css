@@ -276,9 +276,8 @@ section {
 .about-pic {
   border-radius: 2rem;
   display: flex;
-  height: 400px;
-  width: 300px;
-  margin-top: 3rem;
+  height: 500px;
+  width: 500px;
 }
 
 .arrow {
